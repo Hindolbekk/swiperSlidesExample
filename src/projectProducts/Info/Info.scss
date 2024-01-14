@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Info{
+margin-bottom: 30px;
+ display: flex;
+ justify-content: flex-start;
+ margin: 0 auto;
+}
+.InfoImage{
+    width: 800px;
+    height: 500px;
+}
+.InfoText{
+    text-align: start;
+    padding-top: 100px;
+    padding-right: 90px;
+    .title{
+        color: #000;
+        font-family: Inika;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        }
+        .describtion{
+        color: rgba(0, 0, 0, 0.70);
+        font-family: Inter;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        }
+
+}
+@media(max-width:1115px){
+    .InfoText{
+        text-align: start;
+        padding-top: 0px;
+        padding-right: 3px;}
+}
